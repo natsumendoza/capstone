@@ -27,6 +27,7 @@
                         </li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact</a></li>
+                        <!-- <li><a href="transactions.php">Transactions</a></li> -->
                         <li><a href="help.php">Help</a></li>
 						
 						

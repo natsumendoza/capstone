@@ -162,7 +162,10 @@ else{
 
 ?>
      	  
-		  
+
+<p><a href="authorform.php">For Author</a></p>
+<p><a href="supplierform.php">For Supplier</a></p>
+
 <form action="" method="post">
          <div id="register"></div><!--for contact status output-->
 		 <br/>

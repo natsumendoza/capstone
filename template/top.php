@@ -16,6 +16,7 @@
     <link href="css/docs.css" rel="stylesheet">
 
     <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
     <script src="js/metro.js"></script>
     <script src="js/docs.js"></script>
     <script src="js/prettify/run_prettify.js"></script>

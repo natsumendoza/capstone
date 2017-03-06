@@ -83,7 +83,7 @@
           
           
        
-				         <div class="grid no-margin-bottom" style="margin-top: 100px" id="g1">
+				         <!-- <div class="grid no-margin-bottom" style="margin-top: 100px" id="g1">
                         <div class="row cells3">
                             <div class="cell no-overflow" style="height: 85px">
                                 <div class="bg-yellow fg-white block-shadow" style="height: 85px; padding-top: 20px; margin-top: 85px;">
@@ -101,7 +101,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <script>
                         $(function(){
@@ -126,6 +126,7 @@
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/modern-business.js"></script>
 

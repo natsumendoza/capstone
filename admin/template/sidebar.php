@@ -38,5 +38,6 @@
             <li><a href="inventory.php"><i class="fa fa-font"></i>INVENTORY</a></li>
             <li><a href="messaging.php"><i class="fa fa-font"></i>MESSAGE</a></li>
             <li><a href="backup.php"><i class="fa fa-font"></i>BACKUP DB</a></li>
+            <li><a href="accountrequests.php"><i class="fa fa-font"></i>ACCOUNT REQUESTS</a></li>
             
           </ul>
