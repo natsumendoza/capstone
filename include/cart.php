@@ -166,8 +166,8 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 							{
 								$id=$row['id'];
 								$option=$row['option'];
-								$merchant=$row['merchant'];
-								$base_url=$row['base_url'];
+								$merchant="capstoneTest-facilitator@gmail.com";
+								$base_url=  "http://localhost/capstone";
 								$active=$row['active'];
 								
 							}
@@ -270,11 +270,11 @@ $i++;
    
     // Finish the Paypal Checkout Btn
 	$pp_checkout_btn .= '<input type="hidden" name="custom" value="'.$product_id_array.'">
-	<input type="hidden" name="notify_url" value="'.$base_url.'include/my_ipn.php">
-	<input type="hidden" name="return" value="'.$base_url.'user.php?cmd=emptycart">
+	<input type="hidden" name="notify_url" value="'.$base_url.'/include/test_notify.php">
+	<input type="hidden" name="return" value="'.$base_url.'/pay.php">
 	<input type="hidden" name="rm" value="2">
 	<input type="hidden" name="cbt" value="Return to The Store">
-	<input type="hidden" name="cancel_return" value="'.$base_url.'user.php">
+	<input type="hidden" name="cancel_return" value="'.$base_url.'/user.php">
 	<input type="hidden" name="lc" value="PHP">
 	<input type="hidden" name="currency_code" value="PHP">
 <input type="submit" class="btn btn-primary pull-right" name="submit" value="Proceed Checkout">
