@@ -39,5 +39,7 @@
             <li><a href="messaging.php"><i class="fa fa-font"></i>MESSAGE</a></li>
             <li><a href="backup.php"><i class="fa fa-font"></i>BACKUP DB</a></li>
             <li><a href="accountrequests.php"><i class="fa fa-font"></i>ACCOUNT REQUESTS</a></li>
+            <li><a href="../admin/supplier/supplierlist.php"><i class="fa fa-font"></i>SUPPLIER LIST</a></li>
+            <li><a href="../admin/author/authorlist.php"><i class="fa fa-font"></i>AUTHOR LIST</a></li>
             
           </ul>
